@@ -39,3 +39,8 @@ function Car (manufacturer, model, color, releaseYear, fuelConsumpition,volume){
   this.volume = volume;
 }
 const vaz = new Car('autoVaz', 'vaz2112', 'green', 2006, 9, 50);
+
+let namb1 = 8;
+let numb2 = 11;
+let num3 = 22;
+alert(`(${namb1} * ${numb2}) / ${num3} = ${(namb1 * numb2) / num3}`);
