@@ -14,6 +14,17 @@ for (let counter = 10; counter <= 50; counter += 5){
 console.log(sum+=num);
 }*/
 
+/*
+for (let num = +prompt('Введите результат (2+2*2)=?'); ; num = +prompt('Введите результат (2+2*2)=?')){
+    if(num !== 6){
+    alert('Ответ не верный!');}
+    else if(num === 6){
+      alert('Поздравляю, ответ верный!');
+      break;
+    }
+  } 
+*/
+
 /*const student = {
   studentName : 'Stepan',
   studentLastName : 'Fedorov',
